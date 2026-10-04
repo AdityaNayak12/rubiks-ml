@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# uv
+# NOTE: uv.lock SHOULD be committed for applications. Only ignore it for libraries.
+.venv/
+venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts (models, checkpoints, logs, datasets)
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.onnx
+runs/
+wandb/
+mlruns/
+checkpoints/
+logs/
+
+# Environment variables
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
